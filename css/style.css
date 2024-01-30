@@ -1,0 +1,315 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li:nth-child(5) {
+  background-color: orange;
+  padding-right: 15px;
+  p {
+    color: rgb(242, 236, 236);
+  }
+  h3 {
+    color: #fff;
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  top: 30px;
+  position: relative;
+  display: block;
+  margin: 0 50px;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav ul li a:hover {
+  color: orangered;
+  text-decoration: underline orangered;
+}
+
+.image-container {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.image-container img {
+  width: 100%;
+  height: 600px;
+}
+
+.overlay-text {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 50%;
+  transform: translate(-50%, -80%);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  h5 {
+    color: rgb(201, 196, 196);
+  }
+  h1 {
+    font-size: 350%;
+    font-weight: bolder;
+  }
+  p {
+    font-size: larger;
+  }
+}
+
+#contact-button {
+  background-color: #fff;
+  border: none;
+  color: orange;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
+#contact-button:hover {
+  background-color: orange;
+  color: #fff;
+}
+
+.details {
+  margin: 5% 15%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  div {
+    padding-left: 10%;
+  }
+  div h5 {
+    font-size: medium;
+    color: rgb(201, 196, 196);
+    text-align: left;
+  }
+  #contact-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #contact-button:hover {
+    padding: 15px 42px;
+    background-color: orangered;
+    color: #fff;
+  }
+}
+.kaal-puja {
+  background-color: antiquewhite;
+}
+.details-next {
+  margin: 5% 15%;
+  padding: 5% 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  div {
+    padding-left: 10%;
+  }
+  div h5 {
+    font-size: medium;
+    color: rgb(201, 196, 196);
+    text-align: left;
+  }
+  #contact-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #contact-button:hover {
+    padding: 15px 42px;
+    background-color: orangered;
+    color: #fff;
+  }
+  .svg-logo {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+    background-color: orange;
+  }
+}
+.details-trimbakeshwar-poja {
+  justify-content: center;
+  text-align: center;
+  h5 {
+    font-size: medium;
+    color: rgb(201, 196, 196);
+    text-align: center;
+  }
+}
+
+.card-container {
+  display: flex;
+  align-content: center;
+}
+.card {
+  margin: 10px 60px;
+  padding: 12px 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgb(241, 238, 238);
+}
+.card img {
+  border-radius: 5px;
+  width: 90%;
+}
+
+.container {
+  padding: 2px 16px;
+  #contact-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #contact-button:hover {
+    padding: 15px 33px;
+    background-color: orangered;
+    color: #fff;
+  }
+}
+
+
+.cover {
+  position: relative;
+  text-align: center;
+  color: white;
+  img{
+    width: 100%;
+    height: 300px;
+  }
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  #contact-button {
+    background-color: #fff;
+    border: none;
+    color: orange;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #contact-button:hover {
+    background-color: orange;
+    color: #fff;
+  }
+}
+
+
+.details-contact {
+  padding: 5%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: antiquewhite;
+  div {
+    padding-left: 10%;
+  }
+  div h5 {
+    font-size: medium;
+    color: rgb(201, 196, 196);
+    text-align: left;
+  }
+  div h1{
+    font-size: 50px;
+  }
+  div p{
+    font-size: 20px;
+  }
+  #contact-button {
+    background-color: orange;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+  #contact-button:hover {
+    padding: 15px 42px;
+    background-color: orangered;
+    color: #fff;
+  }
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  input{
+    margin: 5px;
+    padding: 10px;
+    width: 500px;
+  }
+
+}
+
+
+.footer {
+  background-color: #212121;
+  color: #fff;
+}
+.col-container {
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+.col {
+  padding: 50px 30px;
+  display: table-cell;
+}
